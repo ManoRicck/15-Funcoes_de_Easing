@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/ease.svg" type="image/x-icon" />
+  <title>Funções de Easing</title>
+</head>
+<body>
+  <div id="eases-visualizer">
+    <div id="eases-editor">
+      <div id="eases-container">
+        <div id="eases-graph" class="eases-editor-cell">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="grid-small">
+            <polyline id="ease-curve" stroke="#FF4B4B" stroke-width="4" points="0 100 50 50 100 0" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd"/>
+          </svg>
+        </div>
+        <div id="eases-time" class="eases-editor-cell"><div class="axis axis-y" data-value="1.0"></div></div>
+        <div id="eases-preview" class="eases-editor-cell">
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div><div class="axis axis-x"></div>
+          <div class="axis axis-x"></div><div class="axis axis-x"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="eases-config">
+      <div id="ease-controls" class="ease-visualizer-section">
+        <input type="text" id="ease-name" value="easeName" readonly/>
+        <div id="ease-parameters">
+          <fieldset class="ease-parameter">
+            <legend id="legend-p1" class="parameter-legend">P1</legend>
+            <input data-parameters="p1" type="number" value="1.0" min="0" max="2" step="0.1"/>
+            <input data-parameters="p1" type="range" value="1.0" min="0" max="2" step="0.1"/>
+          </fieldset>
+          <fieldset class="ease-parameter">
+            <legend id="legend-p2" class="parameter-legend">P2</legend>
+            <input data-parameters="p2" type="number" value="1.0" min="0" max="2" step="0.1"/>
+            <input data-parameters="p2" type="range" value="1.0" min="0" max="2" step="0.1"/>
+          </fieldset>
+          <fieldset class="ease-parameter">
+            <legend id="legend-p3" class="parameter-legend">P3</legend>
+            <input data-parameters="p3" type="number" value="1.0" min="0" max="2" step="0.1"/>
+            <input data-parameters="p3" type="range" value="1.0" min="0" max="2" step="0.1"/>
+          </fieldset>
+          <fieldset class="ease-parameter">
+            <legend id="legend-p4" class="parameter-legend">P4</legend>
+            <input data-parameters="p4" type="number" value="1.0" min="0" max="2" step="0.1"/>
+            <input data-parameters="p4" type="range" value="1.0" min="0" max="2" step="0.1"/>
+          </fieldset>
+        </div>
+      </div>
+      <div id="eases-list" class="ease-visualizer-section"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
