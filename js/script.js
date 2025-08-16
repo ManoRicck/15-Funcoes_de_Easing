@@ -58,7 +58,6 @@ const buttons = [];
 
 utils.set($mainCurve, { points: coordsToPoints(mainCurvePoints) });
 
-/* ====== ATUALIZADO: inclui nossos Sine ====== */
 const easesLookup = { createSpring, ...eases, ...customEases };
 
 const easesList = {
