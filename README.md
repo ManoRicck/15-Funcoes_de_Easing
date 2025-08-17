@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/45e3f954-81ed-44b2-8d1d-01a27323b424
 |------------|----------------|--------------|  
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png" width="20"> **HTML5** | Estruturação da página | [HTML5 Reference](https://developer.mozilla.org/pt-BR/docs/Web/HTML) |  
 | <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="20"> **CSS3** | Estilização e design responsivo | [CSS Docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS) |  
-| <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20"> **JavaScript** | Troca de Personagens | [MDN JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |  
+| <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="20"> **JavaScript** | Troca de Funções | [MDN JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |  
 
 </div>  
 <br>
