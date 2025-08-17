@@ -317,7 +317,7 @@ for (let easeName in easesList) {
   buttons.push($button);
 }
 
-selectEase('out');
+selectEase('in');
 animateEasing();
 
 $easesEditor.onclick = animateEasing;
