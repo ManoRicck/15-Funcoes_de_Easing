@@ -8,8 +8,6 @@ https://github.com/user-attachments/assets/45e3f954-81ed-44b2-8d1d-01a27323b424
   Funções de Easing
 </h1> 
 
-
-
 <br>
 
 <div align="center">  
@@ -34,8 +32,9 @@ https://github.com/user-attachments/assets/45e3f954-81ed-44b2-8d1d-01a27323b424
 ## 🌟 Visão Geral
 
 Bem-vindo ao Site de funções de easing, onde você encontrará todas as ferramentas necessárias para criar transições e animações perfeitas. As funções de easing determinam como uma animação progride ao longo do tempo, permitindo que você crie movimentos naturais e fluidos em seus projetos web e aplicativos.
-<br>
 
+<br>
+<br>
 
 ## 🔍 Principais Recursos
 
@@ -43,6 +42,8 @@ Bem-vindo ao Site de funções de easing, onde você encontrará todas as ferram
 - 🎥 Visualização em Tempo Real: Veja como cada função se comporta em animações antes de usar.
 - ⚡ Super Rápido: Resultados instantâneos, sem espera, mesmo com varias funções.
 - 📱 100% Responsivo: Funciona perfeitamente em celulares e PCs
+
+<br>
 
 ## 📦 Estrutura do Projeto
 
