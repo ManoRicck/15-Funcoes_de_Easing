@@ -34,7 +34,6 @@ https://github.com/user-attachments/assets/45e3f954-81ed-44b2-8d1d-01a27323b424
 Bem-vindo ao Site de funções de easing, onde você encontrará todas as ferramentas necessárias para criar transições e animações perfeitas. As funções de easing determinam como uma animação progride ao longo do tempo, permitindo que você crie movimentos naturais e fluidos em seus projetos web e aplicativos.
 
 <br>
-<br>
 
 ## 🔍 Principais Recursos
 
